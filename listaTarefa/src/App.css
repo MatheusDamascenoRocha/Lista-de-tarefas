@@ -7,7 +7,7 @@ html{
 }
 body{
   font-family: Arial;
-  background: blue;
+  background: #1c1e30;
   padding: 30px;
   color: #333; 
 }
@@ -17,6 +17,7 @@ body{
   margin: 0 auto 300px;
   padding: 20px 30px;
   border-radius: 10px;
+  box-shadow: 0 0 100px rgba(0,0,0,0.4);
 }
 h1{
   text-align: center;
@@ -39,9 +40,25 @@ button{
   cursor: pointer;
   opacity: .8;
   transition: 0.3s;
+  margin-right: 10px;
 }
 button:hover{
   opacity: 1;
+}
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5555554e;
+}
+.todo{
+  background-color: #FFF;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .complete{
   background-color: #5cb85c;

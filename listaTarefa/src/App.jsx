@@ -8,19 +8,19 @@ function App() {
     {
       id: 1,
       text: "Criar funcionalidade x",
-      categoria: "trabalho",
+      categoria: "(Trabalho)",
       isCompleted: false,
     },
     {
       id: 2,
       text: "Ir para a academia",
-      categoria: "pessoal",
+      categoria: "(Pessoal)",
       isCompleted: true,
     },
     {
       id: 3,
       text: "Estudar React",
-      categoria: "estudos",
+      categoria: "(Estudos)",
       isCompleted: false,
     },
 
